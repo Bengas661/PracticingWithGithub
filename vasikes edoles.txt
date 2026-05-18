@@ -21,6 +21,7 @@ git log --oneline
 
 git diff
 
+git diff "vasikes edoles.txt"
 
 
 
@@ -29,4 +30,4 @@ notepad index.html
 
 
 
-q to quit
+q to quit -
