@@ -2,7 +2,6 @@ git init
 
 
 
-
 Gia idi uparxon project:
   Grigoro deksi klik mesa sto fakelo --> Open Git Bash here
   Alliws:  cd /c/Users/user/Desktop/Git
@@ -21,3 +20,13 @@ git log --oneline
 
 
 git diff
+
+
+
+
+#kaneis edit ena arxeio (index.html) meso notepad:
+notepad index.html
+
+
+
+q to quit
