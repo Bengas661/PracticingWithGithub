@@ -1,0 +1,23 @@
+git init
+
+
+
+
+Gia idi uparxon project:
+  Grigoro deksi klik mesa sto fakelo --> Open Git Bash here
+  Alliws:  cd /c/Users/user/Desktop/Git
+
+#tsekareis ti uparxei:
+git status 
+
+#Vazeis kati mesa sto fakelo h kaneis edit kati uparxon. Gia na paei sto staging area: 
+git add .
+
+# Gia na paei sto local repository:
+git commit
+
+git log
+git log --oneline 
+
+
+git diff
