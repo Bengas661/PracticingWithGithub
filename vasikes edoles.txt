@@ -1,11 +1,30 @@
+# Create empty directory (it creates a folder)
+mkdir PutaNameHere
+cd PutaNameHere/
+
+#Converts directory to repository (creates hidden directory that stores metadata required for it to function):
+git init
+
+git status
+
+#creates and initializes a directory at the same time
+git init Dirname
+cd Dirname/
+
+
 Gia idi uparxon project:
   Grigoro deksi klik mesa sto fakelo --> Open Git Bash here
   Alliws:  cd /c/Users/user/Desktop/Git
+
+# shows directory
+pwd
 
 
 ---------------------------------------------------------
 #showing content
 ls -lrt
+ls -ls
+ls -la
 
 # 1 kaneis edit ena arxeio (index.html) meso notepad:
 notepad index.html
@@ -43,4 +62,31 @@ git diff b2aaf1c
 
 
 q to quit -
+
+
+#################################
+REVERTING TO EARLIER COMMIT VERSIONS
+#################################
+
+# Checking earlier commits
+git log --oneline
+
+git log --oneline "practice_file.txt"
+
+# That shows the content of the required file
+cat "practice_file.txt"
+
+# Reverting to version 1 of the file 
+git checkout HEAD~1 practice_file.txt
+
+
+
+
+
+
+
+
+
+
+
 
