@@ -21,7 +21,7 @@ pwd
 
 
 ---------------------------------------------------------
-#showing content
+#showing content in WORKING directory
 ls -lrt
 ls -ls
 ls -la
@@ -79,14 +79,44 @@ cat "practice_file.txt"
 # Reverting to version 1 of the file 
 git checkout HEAD~1 practice_file.txt
 
+# Commiting 
+git commit -m practice_file.txt "reverting to version 1"
 
 
 
+# Checking log 
+git log --oneline "practice_file.txt"
+b4d8f4e added Line 4
+250db6e added practice_file.txt
+
+# Reverting by using one of the codes above
+git checkout 250db6e  practice_file.txt
+
+#Git status for the file
+git status "practice_file.txt"
+
+git commit -m "epanafora stis 4 grammes"
 
 
 
+####################
+DELETING FILES
+####################
 
+# Checking staged files
+git ls-files --stage
 
+# Delete files - from staging area+working directory
+git rm -f a.txt
 
+# Checking working directory
+ls -lrt
 
+# Delete files - only from staging area
+git rm --cached b.txt
+
+# Delete files - from working directory
+rm b.txt
+
+.
 
