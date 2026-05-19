@@ -1,39 +1,12 @@
-#Vasikles edoles
-git init
-
-
-
 Gia idi uparxon project:
   Grigoro deksi klik mesa sto fakelo --> Open Git Bash here
   Alliws:  cd /c/Users/user/Desktop/Git
 
-#tsekareis ti uparxei:
-git status 
 
-#Vazeis kati mesa sto fakelo h kaneis edit kati uparxon. Gia na paei sto staging area: 
-git add .
-
-# Gia na paei sto local repository:
-git commit
-git commit -m added "bla bla"
-
-git log
-git log --oneline 
-
-
-git diff
-
-git diff "vasikes edoles.txt"
-
+---------------------------------------------------------
 #showing content
 ls -lrt
 
-
-#before you commit the changes: ?????
-git diff --staged HEAD
-
-
----------------------------------------------------------
 # 1 kaneis edit ena arxeio (index.html) meso notepad:
 notepad index.html
 
@@ -64,6 +37,8 @@ git commit -m "new updates"
 
 git log --oneline 
 
+# 9 Checking specific changes by adding one of the codes found in git log command. For example: 
+git diff b2aaf1c
 ----------------------------------------------------------
 
 
