@@ -52,8 +52,16 @@ git diff "vasikes edoles.txt"
 # 6 (staging area VS last commit) Difference between the last commit and the files you have already added with git add. = what was added and WILL be committed
 git diff --staged 
 git diff --staged HEAD   (=exact changes since last commit)
+git diff --staged HEAD~1
+git diff --staged HEAD~2
+git diff --staged HEAD~3
 
 # 7 shows a compact history of commits
+git log --oneline 
+
+# 8 Commiting and add message to the log for the update
+git commit -m "new updates"
+
 git log --oneline 
 
 ----------------------------------------------------------
