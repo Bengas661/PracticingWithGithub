@@ -1,3 +1,4 @@
+#Vasikles edoles
 git init
 
 
@@ -14,6 +15,7 @@ git add .
 
 # Gia na paei sto local repository:
 git commit
+git commit -m added "bla bla"
 
 git log
 git log --oneline 
@@ -23,11 +25,39 @@ git diff
 
 git diff "vasikes edoles.txt"
 
+#showing content
+ls -lrt
 
 
-#kaneis edit ena arxeio (index.html) meso notepad:
+#before you commit the changes: ?????
+git diff --staged HEAD
+
+
+---------------------------------------------------------
+# 1 kaneis edit ena arxeio (index.html) meso notepad:
 notepad index.html
 
+# 2 tsekareis ti uparxei:
+git status
+
+# 3 Allages pou eginan (working directory VS staging area) = what changed but NOT added:
+git diff "vasikes edoles.txt"
+
+# 4 Sedning to staging area
+git add .
+
+# 5 Check the same to confirm:
+git diff "vasikes edoles.txt"
+
+# 6 (staging area VS last commit) Difference between the last commit and the files you have already added with git add. = what was added and WILL be committed
+git diff --staged 
+git diff --staged HEAD   (=exact changes since last commit)
+
+# 7 shows a compact history of commits
+git log --oneline 
+
+----------------------------------------------------------
 
 
 q to quit -
+
