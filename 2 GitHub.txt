@@ -1,0 +1,17 @@
+In the GitHub website ->add new repository
+
+After being created some links are provided 
+
+
+# Example with 'PracticingWithGithub' repository:
+#  ...Push an existing repository from the command line
+
+# orizoume local repository
+cd /c/Users/user/Desktop/Git
+
+git remote add origin https://github.com/Bengas661/PracticingWithGithub.git
+git push -u origin main
+
+
+
+

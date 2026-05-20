@@ -118,5 +118,47 @@ git rm --cached b.txt
 # Delete files - from working directory
 rm b.txt
 
-.
+
+###################
+IGNORING FILES
+###################
+
+#creating .gitignore file (that will have to include whatever should be ignored)
+touch .gitignore
+
+#Adding *.txt at the end of .gitignore file (inside)
+echo "*.txt" >> .gitignore
+
+#Reading file
+cat .gitignore
+
+#adding to staging
+git add .gitignore
+
+#commiting
+git commit -m "ignore txt files"
+
+#touch creates an empty file
+touch test99.txt
+
+# checking if ignored or not
+git add test99.txt
+git add -f test99.txt  # -> only with '-f' it will not be ignored
+
+# It should not be included here
+git status
+
+# To change anything (rules for ignoring) - Open and edit the file in notepad
+notepad .gitignore
+
+
+###################
+RENAMING FILES
+###################
+
+
+
+
+
+
 
