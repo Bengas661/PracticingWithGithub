@@ -13,5 +13,6 @@ git remote add origin https://github.com/Bengas661/PracticingWithGithub.git
 git push -u origin main
 
 
-
+#Every time  I need to upload something:
+git push
 
