@@ -1,3 +1,7 @@
+#########################################
+ CREATING REPOSITORY AND PUSHING COMMITS
+#########################################
+
 In the GitHub website ->add new repository
 
 After being created some links are provided 
@@ -15,4 +19,11 @@ git push -u origin main
 
 #Every time  I need to upload something:
 git push
+
+
+#########################################
+ PULLING COMMITS
+#########################################
+
+
 
