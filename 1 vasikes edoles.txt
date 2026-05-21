@@ -50,6 +50,8 @@ git diff --staged HEAD~3
 
 # 7 Change between last commit and one commit earlier than that
 git diff HEAD~1 HEAD
+# For specific file:
+git diff HEAD~2 HEAD~3 "2 GitHub.txt"
 
 # 8 shows a compact history of commits
 git log --oneline 
