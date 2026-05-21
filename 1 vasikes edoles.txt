@@ -48,15 +48,18 @@ git diff --staged HEAD~1
 git diff --staged HEAD~2
 git diff --staged HEAD~3
 
-# 7 shows a compact history of commits
+# 7 Change between last commit and one commit earlier than that
+git diff HEAD~1 HEAD
+
+# 8 shows a compact history of commits
 git log --oneline 
 
-# 8 Commiting and add message to the log for the update
+# 9 Commiting and add message to the log for the update
 git commit -m "new updates"
 
 git log --oneline 
 
-# 9 Checking specific changes by adding one of the codes found in git log command. For example: 
+# 10 Checking specific changes by adding one of the codes found in git log command. For example: 
 git diff b2aaf1c
 ----------------------------------------------------------
 
@@ -151,10 +154,15 @@ git status
 # To change anything (rules for ignoring) - Open and edit the file in notepad
 notepad .gitignore
 
+git add .gitignore
+
 
 ###################
 RENAMING FILES
 ###################
+
+git mv abc.txt abcd.txt
+
 
 
 

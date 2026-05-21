@@ -37,7 +37,7 @@ git pull origin main
 
 Suppose an update is made in local under the usual proceedure (update -> git add . -> commit -m)
 
-If 'git push' is used and there is a concurrent change in the remote repository an erro will be displayed.
+If 'git push' is used and there is a concurrent change in the remote repository an error will be displayed.
 
 Then 'git pull' should be used to receive the remote changes and merge and then:
 
@@ -51,16 +51,28 @@ Then 'git pull' should be used to receive the remote changes and merge and then:
 # checking git log --oneline  vs Commits in Remote to ensure they are sync
 
 git push
+
+# 1
 git pull
 
 
-#If same item updated Remotely and Locally then that message will appear:
+# 2 If same item updated Remotely and Locally then that message will appear:
 
 CONFLICT (content): Merge conflict in index.html
 Automatic merge failed; fix conflicts and then commit the result.
 
 #Check the changes manually. They are indicated with colors:
-vi <file_name>   (i.e. vi index.html)
+vi <file_name>   (i.e. vi index.html  ,  notepad index.html)
+
+# Then
+git status
+git add .
+git commit -m "Updating local file"
+git log --oneline
+git push
+
+
+
 
 
 
