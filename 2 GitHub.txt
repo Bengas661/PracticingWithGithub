@@ -50,6 +50,18 @@ Then 'git pull' should be used to receive the remote changes and merge and then:
 
 # checking git log --oneline  vs Commits in Remote to ensure they are sync
 
+git push
+git pull
+
+
+#If same item updated Remotely and Locally then that message will appear:
+
+CONFLICT (content): Merge conflict in index.html
+Automatic merge failed; fix conflicts and then commit the result.
+
+#Check the changes manually. They are indicated with colors:
+vi <file_name>   (i.e. vi index.html)
+
 
 
 
