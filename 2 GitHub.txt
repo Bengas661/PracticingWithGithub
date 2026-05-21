@@ -25,5 +25,5 @@ git push
  PULLING COMMITS
 #########################################
 
-
+git pull origin main
 
