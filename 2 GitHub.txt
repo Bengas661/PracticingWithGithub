@@ -29,3 +29,34 @@ git pull origin main
 
 
 # add more
+
+
+###############################################################
+ MANAGING SIMULTANEOUS COMMITS in LOCAL and REMOTE REPOSITORIES
+###############################################################
+
+Suppose an update is made in local under the usual proceedure (update -> git add . -> commit -m)
+
+If 'git push' is used and there is a concurrent change in the remote repository an erro will be displayed.
+
+Then 'git pull' should be used to receive the remote changes and merge and then:
+
+'git push' to send the merged ones to the remote repository
+
+
+############################################
+ Conflicting updates on the same file / item
+############################################
+
+# checking git log --oneline  vs Commits in Remote to ensure they are sync
+
+
+
+
+
+
+
+
+
+
+
