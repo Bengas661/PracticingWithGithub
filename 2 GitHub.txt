@@ -1,6 +1,6 @@
-#########################################
- CREATING REPOSITORY AND PUSHING COMMITS
-#########################################
+######################################################
+ CREATING REPOSITORY AND PUSHING COMMITS (Using HTTPS)
+######################################################
 
 In the GitHub website ->add new repository
 
