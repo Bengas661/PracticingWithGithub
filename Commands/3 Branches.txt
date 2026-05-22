@@ -49,6 +49,11 @@ git checkout -b branch_test_2
 git diff main..branch_test
 
 
+#In order to merge, you need to be in the repository you want the merge to be
+# In order to update main based on the branch_new: 
+git merge branch_test
+
+git log
 
 
 
