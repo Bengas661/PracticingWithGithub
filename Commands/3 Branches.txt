@@ -17,7 +17,14 @@ git log --oneline
 git checkout branch_test
 
 
-#Complete history (including main branch) is replicatd when running:
+#Complete history (including main branch) is replicated when running:
 git log --oneline   
+
+
+#How to make commits to new branch
+#  Update a file (i.e. notepad index.html -> git add. -> git commit -m "xxx xxx")
+After the update:
+git log --oneline  -> The new commit is not present in the master branch 
+
 
 
