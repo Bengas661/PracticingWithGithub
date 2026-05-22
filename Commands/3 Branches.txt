@@ -13,6 +13,7 @@ git branch branch_test
 git log --oneline
 
 
+
 #Switch to the new branch
 git checkout branch_test
 
@@ -28,6 +29,7 @@ git log --oneline
 #  Update a file (i.e. notepad index.html -> git add. -> git commit -m "xxx xxx")
 After the update:
 git log --oneline  -> The new commit is not present in the master branch 
+
 
 #Going back to main branch (after commiting)
 git checkout main
@@ -54,10 +56,6 @@ git diff main..branch_test
 git merge branch_test
 
 git log
-
-
-
-
 
 
 
