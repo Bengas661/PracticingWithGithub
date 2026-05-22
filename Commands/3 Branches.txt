@@ -2,6 +2,22 @@
  BRANCHES
 ###########################
 
+#Checking available branches
+git branch
 
+#Creating a new branch
+git branch branch_test
+
+
+#Commits associated with the main branch
+git log --oneline
+
+
+#Switch to a new branch
+git checkout branch_test
+
+
+#Complete history (including main branch) is replicatd when running:
+git log --oneline   
 
 
