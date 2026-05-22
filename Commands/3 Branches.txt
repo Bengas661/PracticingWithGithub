@@ -2,6 +2,55 @@
  BRANCHES
 ###########################
 
+#Checking available branches
+git branch
+
+#Creating a new branch
+git branch branch_test
+
+
+#Commits associated with the main branch
+git log --oneline
+
+
+#Switch to the new branch
+git checkout branch_test
+
+# ** Creating and switching at the same time: **
+  ** git checkout -b branch_test 
+
+
+#Complete history (including main branch) is replicated when running:
+git log --oneline   
+
+
+#How to make commits to new branch
+#  Update a file (i.e. notepad index.html -> git add. -> git commit -m "xxx xxx")
+After the update:
+git log --oneline  -> The new commit is not present in the master branch 
+
+#Going back to main branch (after commiting)
+git checkout main
+
+git log --oneline  -> latest commit is not visible ιν τηε μαιν βρανψη
+
+
+#Create a branch and switch to it using a single command
+git checkout -b branch_test_2
+
+
+
+####################
+ MERGE BRANCHES
+####################
+
+# Understanding differences
+
+
+
+
+
+
 
 
 
