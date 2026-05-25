@@ -67,5 +67,82 @@ git log
 user@DESKTOP-FVQOA85 MINGW64 ~/Desktop/Git (main|MERGING)
 
 
+#Pictorial view of branches -> Program files/Git/cmd -> Execute: git-gui -> select repository
+
+
+#Also - check log  with graph
+git log --oneline --decorate --graph
+
+#######################
+ MERGE TYPES
+#######################
+
+Git decides automatically the type of merge based on the state of the branches.
+
+# FAST FORWARD #
+
+Changes the label at the end of the last branch commit and sets equal to master
+
+# RECURSIVE #
+
+Default merge
+
+
+
+
+###################################################
+## STASHING (allazeis branch prin kaneis commit) ##
+###################################################
+
+# Going to another branch while work is still on (before commiting)
+git checkout master
+
+# Automatic message: <<Please commit your changes or stash them before you switch branches.>>
+git stash save 
+
+# Checking the stashes
+git stash list
+
+# Go back to the other branch 
+git checkout branch1
+
+git log --oneline
+
+
+# Going back to the point you were before (WIP: Work In Progress)
+git stash apply
+
+# Number of files involved in this stash and the lines updated
+git stash show
+
+# Clearing stash snapshots (cleans-up stash list)
+git stash clear
+
+
+#################################################################
+## REBASING (getting the latest commit in master as the parent ## 
+             of the work currently done in a branch)           ##
+#################################################################
+
+git rebase master
+
+
+#################################################################
+## CLONING (create full local copy of a remote Git repository) ##
+#################################################################
+
+go to "<> Code" (green) button inside the "<> Code" tab.
+
+# going one level up
+cd .. 
+
+
+
+git clone https://github.com/Nihad257/mediflow-insights.git
+
+#Checking where it was created
+pwd
+
+
 
 

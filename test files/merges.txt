@@ -1,1 +1,15 @@
-Version 1 - Ch1
+Version 1 - Ch1. 
+-Update 1 in branch
+-Update 2 in branch
+-Update 3 in branch
+
+drafting version 2 in branch 1
+- 1 xxx
+- 2 ttt
+
+New1
+New2
+New3
+New4
+
+xxx

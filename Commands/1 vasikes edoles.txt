@@ -55,6 +55,7 @@ git diff HEAD~2 HEAD~3 "2 GitHub.txt"
 
 # 8 shows a compact history of commits
 git log --oneline 
+git log --oneline --decorate --graph
 
 # 9 Commiting and add message to the log for the update
 git commit -m "new updates"
