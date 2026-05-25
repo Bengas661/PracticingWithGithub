@@ -57,6 +57,14 @@ git merge branch_test
 
 git log
 
+#If there is conflict, then open and correct, i.e.
+notepad  notepad "Commands/3 Branches.txt"
+
+#Then add -> commit etc  and then check:
+git log 
+
+#Look at the end
+user@DESKTOP-FVQOA85 MINGW64 ~/Desktop/Git (main|MERGING)
 
 
 
